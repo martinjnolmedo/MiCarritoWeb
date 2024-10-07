@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotin</title>
+    <link rel="shortcut icon" href="img/icono.png"/>
+</head>
+<body>
+    <header>
+        <!-- Imagenes -->
+        <img src="img/logo.png" alt="imagen representante del logo del proyecto" width="268">
+        <h1>Bienvenidos a la tienda de mascotas Mascotin</h1>
+    </header>
+    <nav>
+        <!-- Listas -->
+        <ul>
+            <li>
+                <a href="index.html">
+                    Inicio
+                </a>
+            </li>
+            <li>
+                <a href="productos.html"> <!--  target="_blank" -->
+                    Productos
+                </a>
+            </li>
+            <li>
+                <a href="contacto.html" target="_blank">
+                    Contacto
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <p>Sección principal</p>
+        <section>
+            <h2>Productos</h2>
+            <p>Hueso</p>
+            <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">    
+        </section>
+        <section>
+            <!-- Videos -->
+            <!-- <video controls>
+                <source width="320" height="532" src="img/video.mp4" type="video/mp4">
+                <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="español">
+            </video> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DIt8a1Sb68U?si=4I2iYgvNlfM_apCN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; gyroscope" allowfullscreen></iframe>
+        </section>
+        <section>
+            <p>Pagos</p>
+        </section>
+        <Section>
+            <p>Cómo llegar?</p>
+        </Section>    
+    </main>
+    <footer>
+        <section>
+            <!-- Formularios -->
+             <h3>Dejanos tu consulta</h3>
+            <form action="" method="POST"><!-- para que no los datos vayan encriptados, se utiliza el método POST (y no se ven en la barra del navegador)  -->
+                <label for="nombre">Nombre:
+                    <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre">
+                </label>
+                <br>
+                <label for="email">Email:
+                    <input name="email" id="email" type="email" placeholder="Ingrese su email">
+                </label>
+                <br>
+                <label for="consulta">Consulta:
+                    <input name="consulta" id="consulta" type="text" placeholder="Escribe tu consulta">
+                    <textarea name="consulta" id="consulta" cols="40" rows="20" placeholder="Escribe tu consulta"></textarea>
+                </label>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
+    </footer>
+</body>
+</html>
