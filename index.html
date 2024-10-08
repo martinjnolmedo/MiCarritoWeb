@@ -10,12 +10,12 @@
 <body>
     <header>
         <!-- Imagenes y diseño (css) -->
-        <img src="img/logo.png" alt="imagen representante del logo del proyecto" width="268">
+        <img id="logo" src="img/logo.png" alt="imagen representante del logo del proyecto" width="268">
         <h1>Bienvenidos a la tienda de mascotas Mascotin</h1>
     </header>
-    <nav>
+    <nav class="nav">
         <!-- Listas -->
-        <ul>
+        <ul id="ulNav">
             <li>
                 <a href="index.html">
                     Inicio
@@ -27,7 +27,7 @@
                 </a>
             </li>
             <li>
-                <a href="contacto.html" target="_blank">
+                <a href="contacto.html"> 
                     Contacto
                 </a>
             </li>
@@ -57,7 +57,24 @@
         </section>
         <Section>
             <p>Cómo llegar?</p>
-        </Section>    
+        </Section>
+        <section>
+            <!-- modify this form HTML and place wherever you wanyour form -->
+            <form action="https://formspree.io/f/xzzbpkvbmethod="POST">
+                <label>Ingrese su nombre:
+                    <input type="text" name="name">
+                </label>
+                <label>Ingrese su email:
+                    <input type="email" name="email">
+                </label>
+                <label>Ingrese su mensaje:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" target="_blank">Send</button>
+            </form>
+        </section>
+        
     </main>
     <footer id="pagina-footer">
         <section>
@@ -78,22 +95,13 @@
                 </label>
                 <input type="submit" value="Enviar">
             </form> -->
-            <!-- modify this form HTML and place wherever you want your form -->
-            <form action="https://formspree.io/f/xzzbpkvb" method="POST">
-                <label>Ingrese su nombre:
-                    <input type="text" name="nombre">
-                </label>
-                <label>Ingrese su email:
-                    <input type="email" name="email">
-                </label>
-                <label> Your message:
-                    <textarea name="message"></textarea>
-                </label>
-                <!-- your other form fields go here -->
-                <button type="submit" target="_blank">Send</button>
-            </form>
         </section>
-        <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
+        <section>
+            <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
+        </section>
+        <section>
+            <p>2024 - Mi sitio web - Todos los derechos reservados</p>
+        </section>
     </footer>
 </body>
 </html>
