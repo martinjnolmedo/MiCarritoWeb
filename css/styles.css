@@ -1,0 +1,47 @@
+* {
+    margin: 0.1%;
+    padding: 0.1%;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lavenderblush;
+}
+
+main {
+
+}
+
+footer {
+    background-color: lavender;
+    text-emphasis: inherit;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.nav{
+    position: sticky;
+    top: 0%;
+    margin-top: -10px;
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* #ulNav {
+    list-style-type: none; /* para sacarle la viñeta a la lista desordenada */
+/*    text-decoration: none; /* para sacarle la apariencia de enlace */
+/*    color: tomato;
+    background-color: rgb(255, 248, 250);
+    display: flex;
+} */
+
+#logo {
+    display: block;
+    margin: 0 auto;
+}
