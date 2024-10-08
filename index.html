@@ -8,8 +8,9 @@
 </head>
 <body>
     <header>
-        <!-- Imagenes -->
+        <!-- Imagenes y diseño (css) -->
         <img src="img/logo.png" alt="imagen representante del logo del proyecto" width="268">
+        <link rel="stylesheet" href="styles.css">
         <h1>Bienvenidos a la tienda de mascotas Mascotin</h1>
     </header>
     <nav>
@@ -34,9 +35,13 @@
     </nav>
     <main>
         <p>Sección principal</p>
+        <h2>Productos</h2>
         <section>
-            <h2>Productos</h2>
-            <p>Hueso</p>
+            <p class="parrafo-verde">Hueso 1</p>
+            <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">    
+        </section>
+        <section>
+            <p class="parrafo-azul">Hueso 2</p>
             <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">    
         </section>
         <section>
@@ -54,11 +59,11 @@
             <p>Cómo llegar?</p>
         </Section>    
     </main>
-    <footer>
+    <footer id="pagina-footer">
         <section>
-            <!-- Formularios -->
+            <!-- Formularios   USAR FORMSPREE.IO
              <h3>Dejanos tu consulta</h3>
-            <form action="" method="POST"><!-- para que no los datos vayan encriptados, se utiliza el método POST (y no se ven en la barra del navegador)  -->
+            <form action="" method="POST"> para que no los datos vayan encriptados, se utiliza el método POST (y no se ven en la barra del navegador)
                 <label for="nombre">Nombre:
                     <input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre">
                 </label>
@@ -72,6 +77,20 @@
                     <textarea name="consulta" id="consulta" cols="40" rows="20" placeholder="Escribe tu consulta"></textarea>
                 </label>
                 <input type="submit" value="Enviar">
+            </form> -->
+            <!-- modify this form HTML and place wherever you want your form -->
+            <form action="https://formspree.io/f/xzzbpkvb" method="POST">
+                <label>Ingrese su nombre:
+                    <input type="text" name="nombre">
+                </label>
+                <label>Ingrese su email:
+                    <input type="email" name="email">
+                </label>
+                <label> Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit" target="_blank">Send</button>
             </form>
         </section>
         <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>

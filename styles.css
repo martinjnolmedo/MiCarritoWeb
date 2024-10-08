@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+p {
+    color: brown;
+}
+
+h2 {
+    background-color: aqua;
+}
+form {
+    background-color: grey;
+    color: blue;
+}
+
+
+
+.parrafo-verde {
+    color: green;
+}
+.parrafo-azul {
+    color: blue;
+}
+
+#pagina-footer{
+    background-color: darkcyan;
+}
