@@ -6,6 +6,9 @@
     <title>Mascotin</title>
     <link rel="icon" href="img/icono.png?v=2" type="image/png"/>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -36,15 +39,13 @@
     <main>
         <p>Sección principal</p>
         <h2>Productos</h2>
-        <section>
+        <section id="Productos">
             <p class="parrafo-verde">Hueso 1</p>
             <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">    
-        </section>
-        <section>
             <p class="parrafo-azul">Hueso 2</p>
             <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">    
         </section>
-        <section>
+        <section id="Videos">
             <!-- Videos -->
             <!-- <video controls>
                 <source width="320" height="532" src="img/video.mp4" type="video/mp4">
@@ -52,15 +53,12 @@
             </video> -->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/DIt8a1Sb68U?si=4I2iYgvNlfM_apCN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; gyroscope" allowfullscreen></iframe>
         </section>
-        <section>
-            <p>Pagos</p>
-        </section>
-        <Section>
-            <p>Cómo llegar?</p>
+        <Section id="Llegar">
+            <p><a href="">Cómo llegar?</a></p>
         </Section>
-        <section>
+        <section id="Datos">
             <!-- modify this form HTML and place wherever you wanyour form -->
-            <form action="https://formspree.io/f/xzzbpkvbmethod="POST">
+            <form action="https://formspree.io/f/xzzbpkvb" method="post">
                 <label>Ingrese su nombre:
                     <input type="text" name="name">
                 </label>
@@ -73,12 +71,13 @@
                 <!-- your other form fields go here -->
                 <button type="submit" target="_blank">Send</button>
             </form>
+            <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
         </section>
         
     </main>
     <footer id="pagina-footer">
-        <section>
-            <!-- Formularios   USAR FORMSPREE.IO
+        <!-- <section>
+            Formularios   USAR FORMSPREE.IO
              <h3>Dejanos tu consulta</h3>
             <form action="" method="POST"> para que no los datos vayan encriptados, se utiliza el método POST (y no se ven en la barra del navegador)
                 <label for="nombre">Nombre:
@@ -94,11 +93,11 @@
                     <textarea name="consulta" id="consulta" cols="40" rows="20" placeholder="Escribe tu consulta"></textarea>
                 </label>
                 <input type="submit" value="Enviar">
-            </form> -->
+            </form>
         </section>
         <section>
-            <p>O envianos un <a href="mailto:olmedo.molmedo@gmail.com">email</a></p>
-        </section>
+
+        </section> -->
         <section>
             <p>2024 - Mi sitio web - Todos los derechos reservados</p>
         </section>
