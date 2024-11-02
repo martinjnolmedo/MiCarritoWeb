@@ -1,3 +1,73 @@
+@media only screen and (max-width: 300px) {
+    body{
+        font-size: 13px;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+    #Videos{
+        padding: 1%;
+        justify-content: center;
+        color: white;
+        background-color: black;
+    }
+    #Video{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 14px;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+    #Videos{
+        /* margin: 20px; */
+        padding: 1%;
+        justify-content: center;
+        /* text-align: center; */
+        color: white;
+        background-color: black;
+    }
+    #Video{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    #Contacto{
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #Contacto{
+        display: flex;
+    }
+    #card{
+        grid-template-columns: 1fr;
+    }
+    #Formulariodecontacto{
+        flex-wrap: wrap;
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    body{
+        font-size: 18px;
+    }
+}
+
 * {
     margin: 0.1%;
     padding: 0.1%;
@@ -6,6 +76,7 @@
 
 body {
     font-family: Nunito, sans-serif;
+    font-size: 16px;
 }
 
 header {
@@ -16,6 +87,9 @@ main {
     background-color: cadetblue;
     border: 1px solid #333;
 }
+section{
+    margin: 20px;
+}
 
 footer {
     background-color: lavender;
@@ -23,10 +97,16 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    font-size: small;
 }
 
 h1 {
     margin: 0;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
     text-align: center;
 }
 
@@ -62,15 +142,44 @@ h1 {
 
 #Productos{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1%;
+    flex: 1 1 200px;
+    box-sizing: border-box;
+    /* margin: 20px; */
+    text-align: center;
 }
 
-#Llegar{
+#Videos{
+    /* margin: 20px; */
+    padding: 1%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.Llegar{
     text-decoration: none;
 }
 
-#Datos{
+#Contacto{
     display: block;
 }
-#Datos>p{
-    
+
+#reseñas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, ifr));
+}
+
+#card{
+    border: 1px solid #333;
+    margin: 1%;
+    padding: 1%;
+}
+
+#card:hover{
+    transform: translateY(-5px); 
+    transition: transform 0.2s ease 0s;    
 }
