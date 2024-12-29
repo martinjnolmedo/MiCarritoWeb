@@ -113,7 +113,7 @@
             <!-- modify this form HTML and place wherever you wanyour form -->
             <form action="https://formspree.io/f/xzzbpkvb" method="post" id="Formulariodecontacto">
                 <label>Ingrese su nombre:
-                    <input type="text" name="name">
+                    <input type="text" name="name" id="nombre" value="Martin">
                 </label>
                 <label>Ingrese su email:
                     <input type="email" name="email">
@@ -154,6 +154,21 @@
         <section>
             <p>2024 - Mi sitio web - Todos los derechos reservados</p>
         </section>
+        <form action="">
+            <div>
+                <label for="">Nombre</label>
+                <input type="text" id="nombre" value="Martin">
+            </div>
+            <div>
+                <label for="">Edad</label>
+                <input type="text" id="edad" value="35">
+                <p id="validarEdad"></p>
+            </div>
+        </form>
+        <p id="saludo"></p>
+        <p id="mayorDeEdad"></p>
+        <p id="esMayor"></p>
     </footer>
+    <script src="js/js.js"></script>
 </body>
 </html>
