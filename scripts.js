@@ -1,0 +1,21 @@
+let productos=[
+    {
+        codigo:1,
+        descripcion:"producto1",
+        nombre:"nombre1",
+        precio:8001,
+    },
+    {
+        codigo:2,
+        descripcion:"producto2",
+        nombre:"nombre2",
+        precio:8002,
+    },
+    {
+        codigo:3,
+        descripcion:"producto3",
+        nombre:"nombre3",
+        precio:8003,
+    },
+]
+console.log(productos)
