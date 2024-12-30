@@ -110,6 +110,14 @@ h2{
     text-align: center;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .nav{
     background-color: lavenderblush;
     position: sticky;
@@ -122,11 +130,30 @@ h2{
     display: inline-block;
     margin: 20px;
 }
-
 .nav a{
     text-decoration: none !important;
 }
 
+.pagos{
+    background-color: lavenderblush;
+    top: 0%;
+    margin-top: -10px;
+    text-align: center;
+}
+.pagos li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.pagos a{
+    text-decoration: none !important;
+}
+
+.botonAgregarCarrito{
+    background-color: red;
+    color: azure;
+    border-radius: 15px;
+}
 /* #ulNav {
     list-style-type: none; /* para sacarle la viñeta a la lista desordenada */
 /*    text-decoration: none; /* para sacarle la apariencia de enlace */
@@ -140,7 +167,7 @@ h2{
     margin: 0 auto;
 }
 
-#Productos{
+#listaProductos{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
