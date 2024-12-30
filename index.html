@@ -39,39 +39,47 @@
     <main>
         <!-- <p>Sección principal</p> -->
         <h2>Productos</h2>
-        <section id="Productos">
-            <div id="Productos">
-                <p class="parrafo-verde">Hueso 1</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">                
+        <section>
+            <div id="listaProductos">
+<!--id="Productos"                 <div id="Producto1"> 
+                    <p class="parrafo-verde">Hueso 1</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                    <input type="button" value="Agregar al carrito" id="btnAgregarAlCarrito">
+                </div>
+                <div id="Producto2">
+                    <p class="parrafo-azul">Hueso 2</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">                
+                </div>
+                <div id="Producto3">
+                    <p class="parrafo-verde">Hueso 3</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>
+                <div id="Producto4">
+                    <p class="parrafo-azul">Hueso 4</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>
+                <div id="Producto5">
+                    <p class="parrafo-verde">Hueso 5</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>
+                <div id="Producto6">
+                    <p class="parrafo-azul">Hueso 6</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>
+                <div id="Producto7">
+                    <p class="parrafo-verde">Hueso 7</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>
+                <div id="Producto8">
+                    <p class="parrafo-azul">Hueso 8</p>
+                    <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
+                </div>-->
             </div>
-            <div id="Productos">
-                <p class="parrafo-azul">Hueso 2</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">                
-            </div>
-            <div id="Productos">
-                <p class="parrafo-verde">Hueso 3</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
-            <div id="Productos">
-                <p class="parrafo-azul">Hueso 4</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
-            <div id="Productos">
-                <p class="parrafo-verde">Hueso 5</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
-            <div id="Productos">
-                <p class="parrafo-azul">Hueso 6</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
-            <div id="Productos">
-                <p class="parrafo-verde">Hueso 7</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
-            <div id="Productos">
-                <p class="parrafo-azul">Hueso 8</p>
-                <img src="img/hueso_dibujo.png" alt="Esto es un dibujo de un hueso" width="256" height="147">
-            </div>
+        </section>
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <ul></ul>
+            <p>Total a pagar</p>
         </section>
         <section id="Videos">
             <h2>Ahí va un video para calmar a sus mascotas</h2>
@@ -99,6 +107,18 @@
             <div id="card">
                 <p>Reseña 4</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident veniam ratione eveniet officiis cumque ipsa placeat corporis, praesentium pariatur repellendus esse doloribus sed architecto nostrum quidem? Vitae quo debitis repellat.</p>
+            </div>
+        </section>
+        <section class="nav">
+            <div id="card">
+                <h2><i class=""></i>Formas de pago:</h2>
+                <h3><i class=""></i>Pago electrónico</h3>
+                <ul id="ulNav">
+                    <li>Modo</li>
+                    <li>Mercado Pago</li>
+                    <li>Transferencia Bancaria</li>
+                    <li>Tarjeta de crédito/débito</li>
+                </ul>
             </div>
         </section>
         <Section class="Llegar">
@@ -154,21 +174,7 @@
         <section>
             <p>2024 - Mi sitio web - Todos los derechos reservados</p>
         </section>
-        <form action="">
-            <div>
-                <label for="">Nombre</label>
-                <input type="text" id="nombre" value="Martin">
-            </div>
-            <div>
-                <label for="">Edad</label>
-                <input type="text" id="edad" value="35">
-                <p id="validarEdad"></p>
-            </div>
-        </form>
-        <p id="saludo"></p>
-        <p id="mayorDeEdad"></p>
-        <p id="esMayor"></p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
